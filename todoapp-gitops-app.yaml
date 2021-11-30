@@ -7,7 +7,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: todoapp-repo
-  interval: 10m
+  interval: 1m
   path: ./TodoApp/manifests
   prune: true
   validation: client
