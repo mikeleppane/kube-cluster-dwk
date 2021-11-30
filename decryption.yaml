@@ -1,8 +1,8 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: my-secrets
-  namespace: flux-system
+  name: telegram-token
+  namespace: todoapp
 spec:
   interval: 5m
   path: ./TodoApp/manifests
